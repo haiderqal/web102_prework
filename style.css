@@ -20,8 +20,15 @@ body {
 }
 
 .stats-container {
-    display: flex;
+    display: flex; /* Ensures Flexbox is applied */
+    align-items: center; /* Aligns items vertically in the center */
+    cursor: pointer; /* Makes it clear that the element is interactive */
 }
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue; /* Adds a glow effect on hover */
+}
+
 
 .stats-card {
     background-color: #a8b0bc;
