@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=East+Sea+Dokdo&display=swap');
+
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #84C9DF;
 }
 
 #tentacles {
@@ -17,26 +19,32 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    box-shadow: 10px 10px 10px lightblue;
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 2px 1px 1px black;
 }
 
 .stats-container {
-    display: flex; /* Ensures Flexbox is applied */
-    align-items: center; /* Aligns items vertically in the center */
-    cursor: pointer; /* Makes it clear that the element is interactive */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
 }
-
-.stats-container:hover {
-    box-shadow: 0 0 30px lightblue; /* Adds a glow effect on hover */
-}
-
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #2FA8CF;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+}
+
+.stats-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px #1A82A3;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -66,7 +74,8 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #1A82A3;
+    transform: scale(1.01);
 }
 
 #button-container {
@@ -79,4 +88,32 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#button-container > button {
+    background-color: #2FA8CF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 10px #3496b4;
+    transform: scale(1.05);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-top {
+    margin-top: 3rem;
+}
+
+.first-game,
+.second-game {
+    padding: 50px;
+}
+
+.white-text {
+    color: white;
 }
