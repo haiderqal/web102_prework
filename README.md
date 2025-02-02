@@ -25,9 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src="https://i.imgur.com/tUhdx4O.gif"
-     alt="Video Walkthrough by Haider Ali"
-     width='' alt="Video Walkthrough">
+[](searecord.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
