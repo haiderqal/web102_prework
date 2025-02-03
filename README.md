@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![](searecord.gif)
+![](searecordi.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
